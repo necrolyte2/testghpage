@@ -14,7 +14,7 @@ install:
     - pip install git+https://github.com/necrolyte2/travis-sphinx#egg=travis-sphinx
 
 script:
-    - travis-sphinx -s doc build
+    - travis-sphinx -s docs build
 
 after_success:
     - travis-sphinx deploy -p
