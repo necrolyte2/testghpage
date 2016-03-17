@@ -19,4 +19,4 @@ script:
     - travis-sphinx -s docs build
 
 after_success:
-    - travis-sphinx deploy -p
+    - travis-sphinx -p deploy
